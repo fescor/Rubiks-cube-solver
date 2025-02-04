@@ -181,7 +181,7 @@ public class Cube implements Comparable<Cube>{
         temp = new char[3];
         temp2 = new char[3];
         temp3 = new char[3][3];
-        if(row == 1){// kenourgies grammes
+        if(row == 1){// new rows
             rotateRight(0);
             rotateRight(2);
 
@@ -626,7 +626,7 @@ public class Cube implements Comparable<Cube>{
     public void setPrevMove(String move) {
         this.prevMove = move;
     }
-    public void score(){// posa koutakia bika stin sosti plevra //
+    public void score(){// how many blocks are in the right side//
         this.score  = 0;
         for(String key : sides.keySet() ){
             char[][] side = sides.get(key);
