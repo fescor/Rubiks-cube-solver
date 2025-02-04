@@ -1,4 +1,4 @@
-This project was created for the Artificial Inteligence course of the Computer science department in Athens University of Economics and Buisiness during 2023-2024 winter semester.
+This project was created for the Artificial Inteligence course of the Computer science department in Athens University of Economics and Business during 2023-2024 winter semester.
 
 The Goal of the project is to create a program that solves the Rubik's Cube problem using the A* algorithm with BestFS as the search algorithm and the heuristic used is the number of blocks that are in the right side of the cube.The results were not the best but considered that this is not a memory efficient and an outdated method for solving problems with the use of AI i would say there is not really much room for improvment.
 
